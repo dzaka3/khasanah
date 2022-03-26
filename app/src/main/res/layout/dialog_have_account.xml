@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="32dp"
+    android:layout_margin="5dp"
+    android:elevation="32dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    android:padding="@dimen/margin_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/transparent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="fitStart"
+                android:src="@drawable/ic_bell"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/title_teks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_layout"
+            android:layout_marginBottom="100dp"
+            android:text="  page_welcome_txt_detail"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+                android:id="@+id/lbl_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_layout"
+                android:layout_marginTop="@dimen/margin_layout"
+                android:layout_marginBottom="@dimen/activity_title_margin"
+                android:text="  page_welcome_txt_contain"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="textStart"
+                style="@style/header_teks"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btn_tidak"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/btn_tidak"
+            style="@style/TombolActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="  page_welcome_btn_no"
+            android:layout_margin="@dimen/margin_layout"
+            app:layout_constraintBottom_toTopOf="@id/btn_ya"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/btn_ya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  page_welcome_btn_yes"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/margin_layout"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,111 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">khasanah</string>
+    <string name="info_wd_result">*Mohon sertakan <b>Transaction ID</b> dan membawa <b>e-KTP</b> ke counter Teller untuk melakukan penarikan tunai.</string>
+    <string name="btn_daftar">DAFTAR</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_new_user">BUKA REKENING BARU</string>
+    <string name="mn_next">LANJUT</string>
+    <string name="mn_validasi">VALIDASI</string>
+    <string name="mn_submit">SUBMIT</string>
+    <string name="mn_cancel">Cancel</string>
+    <string name="mn_home">HOME</string>
+    <string name="common_yes">Iya</string>
+    <string name="common_no">Tidak</string>
+
+    <string name="login_header" translatable="false">khasanah\'s for breast feeding</string>
+
+    <!-- common string -->
+    <string name="title_questioner">DATA PEMBUKAAN REKENING</string>
+    <string name="common_waning_title">PERINGATAN</string>
+    <string name="common_btn_next">Berikutnya</string>
+    <string name="common_btn_oke">OK</string>
+    <string name="common_schedule_viedeo_call">Verifikasi Video Call</string>
+    <string name="common_info">Informasi</string>
+    <string name="common_coming_soon">Feature Ini Akan Segera Tersedia</string>
+    <string name="common_freeze">Akun Anda Telah Dibekukan</string>
+    <string name="common_update">Data Terbaru Sudah Berhasil Disimpan</string>
+    <string name="common_delete">Data Sudah Berhasil Dihapus</string>
+    <string name="common_freq_cb_0">0 – 10 Kali</string>
+    <string name="common_freq_cb_10"><![CDATA[> 10 – 25 Kali]]></string>
+    <string name="common_freq_cb_25">&gt; 25 Kali</string>
+    <string name="common_amount_cb_0">&lt;= 30 Juta</string>
+    <string name="common_amount_cb_30"><![CDATA[> 30 – 60 Juta]]></string>
+    <string name="common_amount_cb_60">&gt; 60 Juta</string>
+    <string name="common_btn_done">Selesai</string>
+    <string name="common_permission_storage_title">Media Storage Permission</string>
+    <string name="common_permission_storage_desc">Kami memerlukan Anda memberikan izin untuk dapat mengakses media penyimpanan</string>
+    <string name="common_permission_location_title">Location Permission</string>
+    <string name="common_permission_location_desc">Kami memerlukan Anda memberikan izin untuk dapat mengakses lokasi</string>
+    <string name="saya_tunggu">Saya Tunggu</string>
+    <string name="batalkan_permohonan">Batalkan Permohonan</string>
+    <string name="common_btn_back_to_login">Kembali ke Halaman Utama</string>
+    <string name="common_no_internet_connection">Silahkan periksa koneksi internet anda</string>
+    <string name="common_cannot_connect_to_server">Tidak dapat terhubung ke server</string>
+    <string name="common_internal_error_500">Server tidak dapat merespon</string>
+    <string name="common_cannot_save_data">Tidak dapat menyimpan data</string>
+    <string name="common_timeout_connect_to_server">Timeout</string>
+    <string name="common_timeout_trx">Transaksi anda akan diproses</string>
+    <string name="common_loading_button">Silahkan Tunggu...</string>
+    <string name="common_loading_sending_button">Mengirim Data...</string>
+    <string name="common_loading_data_button">Loading Data...</string>
+    <string name="common_btn_back">Kembali</string>
+    <string name="common_btn_save">Simpan</string>
+    <string name="common_btn_upload">Upload</string>
+    <string name="common_error_500">Terjadi kesalahan pada system hubungi administrator</string>
+    <string name="common_error_504">gateway server tidak merespon, silahkan coba lagi</string>
+    <string name="common_error_504_ist">Gateway server timeout, Silahkan coba lagi</string>
+    <string name="common_error_429">Request OTP sudah melebihi batas, silahkan coba beberapa saat lagi</string>
+    <string name="common_error_transaction_limit">Transaksi anda melebihi batas</string>
+    <string name="common_error_invalid_cvv">Kode CVV Salah</string>
+    <string name="common_error_invalid_cvv_limit">Kode CVV Salah 3 Kali</string>
+    <string name="common_error_phone_registered">Nomor Handphone telah terdaftar</string>
+    <string name="common_error_forbidden">forbidden</string>
+    <string name="common_error_bad_input">Data yang Anda masukkan salah</string>
+    <string name="common_error_blocked_by_pin_trx_attemps">Anda telah mencapai batasan percobaan maksimum untuk pin transaksi</string>
+    <string name="common_error_blocked_by_pwd_attemps">Anda telah mencapai batasan percobaan maksimum untuk password</string>
+    <string name="common_error_weak_password">Password lemah, silahkan ganti password Anda</string>
+    <string name="common_error_data_not_found">Data tidak ditemukan</string>
+    <string name="common_share_resi">Bagikan melalui</string>
+    <string name="common_cari">Cari</string>
+    <string name="common_hapus">Hapus</string>
+    <string name="common_session_not_valid_title">Sesi anda sudah tidak valid</string>
+    <string name="common_session_ended_title">Sesi Habis</string>
+    <string name="common_session_ended_desc">Sesi Anda telah habis. Silahkan log in kembali.</string>
+    <string name="common_session_time_out">Sesi anda habis</string>
+    <string name="common_deposit_other_banks_title">Setor dari bank lain</string>
+    <string name="common_deposit_other_banks_desc">Silahkan melakukan setoran ke rekening Anda melalui bank lainnya.</string>
+    <string name="common_acc_full">Rekening Sub anda sudah maksimal dan tidak bisa ditambah</string>
+    <string name="common_illegalStateException">Parameter tidak valid</string>
+    <string name="common_under_maintenance">Dalam perbaikan</string>
+    <string name="common_login_inactive_card">Login tidak aktif</string>
+    <string name="common_qr_not_found">QR tidak tergenerate, Silahkan coba lagi</string>
+
+    <!--    Dialog-->
+    <string name="dialog_wrong_pin">PIN yang anda masukkan salah</string>
+    <string name="dialog_password_unmatch">Password tidak sama, silahkan ketik ulang</string>
+    <string name="dialog_password_same">Password lama dan password baru tidak boleh sama</string>
+    <string name="dialog_password_weak">Password lemah, silahkan masukkan password baru</string>
+    <string name="dialog_password_unvalid">Password tidak valid, masukkan password baru sesuai pattern</string>
+    <string name="dialog_pin_unmatch">Pin tidak sama, silahkan ketik ulang</string>
+    <string name="dialog_pin_same">Pin lama dan pin baru tidak boleh sama</string>
+    <string name="dialog_pin_invalid">Pin terdiri dari 6 karakter, tidak boleh berurutan dan 6 angka yang sama</string>
+    <string name="dialog_otp_invalid">Oops...!!! OTP Yang Anda Masukkan Salah</string>
+    <string name="dialog_otp_expired">OTP sudah tidak valid, silahkan klik kirim ulang OTP</string>
+    <string name="on_approval_process_title">Persetujuan sedang dalam proses</string>
+    <string name="schedule_not_found">Jadwal tidak tersedia, silahkan pilih jadwal lainnya</string>
+    <string name="phone_number">Mohon Periksa Nomor Handphone Anda</string>
+    <string name="dialog_otp_salah">Kode OTP yang anda masukkan salah silahkan ulangi lagi</string>
+    <string name="dialog_tryCount_descript">Kode OTP Anda telah salah 5 kali, silahkan ulangi lagi minggu depan</string>
+    <string name="dialog_qr_title">QR Code</string>
+    <string name="dialog_qr_desc">Silahkan pindai QR Code anda</string>
+    <string name="dialog_qr_error">QR Code tidak tersedia, silahkan pindai ulang</string>
+    <string name="dialog_rooted">Device terdeteksi sudah di root</string>
+    <string name="dialog_emulator">Aplikasi tidak dapat berjalan di emulator</string>
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

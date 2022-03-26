@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="32dp"
+    android:layout_margin="5dp"
+    android:elevation="32dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    android:padding="@dimen/margin_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        android:paddingBottom="@dimen/margin_small">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_layout"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_bell"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_title"
+            style="@style/header_teks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_layout"
+            android:text="Title"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/lbl_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_layout"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            style="@style/title_teks"
+            android:text="Description"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_tidak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/card_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/margin_layout"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_reschedule_date"
+                style="@style/header_teks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_layout"
+                android:layout_marginTop="4dp"
+                android:text="text here"
+                android:textAlignment="textStart"
+                android:textColor="@color/ars_blue"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_reschedule_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_layout"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="text here"
+                android:textColor="@color/ars_blue"
+                android:textAlignment="textStart"
+                style="@style/header_teks"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_reschedule_date"/>
+            <TextView
+                android:id="@+id/lbl_reschedule_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_layout"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/activity_title_margin"
+                android:text="text here"
+                android:textColor="@color/ars_blue"
+                android:textAlignment="textStart"
+                style="@style/header_teks"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/tv_reschedule_date"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                android:id="@+id/lbl_reschedule_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="text here"
+                android:textColor="@color/ars_blue"
+                android:textAlignment="textStart"
+                style="@style/header_teks"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/lbl_reschedule_date"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_reschedule_date"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btn_okay"
+            style="@style/TombolActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Saya Mengerti"
+            android:layout_marginHorizontal="@dimen/margin_layout"
+            android:layout_marginBottom="@dimen/margin_small"
+            app:layout_constraintBottom_toTopOf="@id/btn_ya"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/TombolTransparents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_layout"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:gravity="center"
+            android:text="Batal"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toTopOf="@id/btn_okay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

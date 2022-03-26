@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/ars_rounded_blue.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/background_shimmer.xml" value="0.1" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/bg_round_fill_white.xml" value="0.121875" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/bg_round_grad_white_blue.xml" value="0.121875" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/btn_active.xml" value="0.26296296296296295" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/btn_grey.xml" value="0.16458333333333333" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/btn_input_grey.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/btn_noactive.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/btn_white.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/bubble_cursor.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/buttonstyle.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/et_rounded.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/ic_edit.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/ic_left_arrow_white.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/progress.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/rounded_white.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/rounded_white_text.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/drawable/side_nav_bar.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/activity_dashboard.xml" value="0.10572916666666667" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/activity_forward.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/activity_login.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/activity_main.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/balloon_favorit_transfer_delete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/bottom_sheet_menu_favorite_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/custom_av_progress_dialog.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/custom_snackbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_account_activation_success.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_common.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_common_two_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_error.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_favorit_transfer_edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_fingerprint.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_fingerprint_not_active.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_have_account.xml" value="0.1" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_input_text.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_rekening.xml" value="0.4" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_two_button.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/dialog_wrong_cvv_max_attempt.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_account.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_account_pin.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_add_child_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_akun.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_atm_desain.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_berat_bayi.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_change_pin_atm.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_data_akun.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_data_anak.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_data_family_2_31.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_detail_child_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_fa_q.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_faq_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_faq_web_view.xml" value="0.24010416666666667" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_funder.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_gallery.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_hypno.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_hypno_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_hypno_web_view.xml" value="0.24010416666666667" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_industry.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_konsep.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_konsep_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_personal_data.xml" value="0.2" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_pompa_asi.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_product_info_2_4_1.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_registration_info.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_statistik.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/fragment_succes.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/home_item.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/incoming_call.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/item_list_content.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/item_row_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/khasanah_item_row_title.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/loading_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/layout/snackbar_title_desc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/dashboard_kanan_atas.xml" value="0.12708333333333333" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/menu_cancel.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/menu_crop_image.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/menu_resi.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/menu_submit.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/menu/menu_validation.xml" value="0.1484375" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build - Copy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121875" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/drawable-v24/input_white_square.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/drawable/btn_active.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.26615384615384613" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/activity_dashboard.xml" value="0.23703703703703705" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/activity_forward.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/dialog_common.xml" value="0.2" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/dialog_error.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_account_pin.xml" value="0.13645833333333332" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_add_balances.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_address_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_akun.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_all_transaction_vission.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_berat_bayi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_choose_your_atm.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_data_akun.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_data_anak.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_data_anak_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_fa_q.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_faq_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_hypno.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_hypno_detail.xml" value="0.24010416666666667" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_konsep.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_konsep_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_personal_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_photos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_pompa_asi.xml" value="0.176" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_pompa_asi_input.xml" value="0.24010416666666667" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_product_info_2_4_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_statistik.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_term_cond_1_13_atau_2_33.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_transfer_rtgs.xml" value="0.13645833333333332" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/item_list_button_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/item_row_history_vdg.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/khasanah_custom_marker_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Campur/mestika_visiondg - DEV mestika build/app/src/main/res/layout/khasanah_item_row_title.xml" value="0.25416666666666665" />
+        <entry key="..\:/MESTIKA/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_home.xml" value="0.21851851851851853" />
+        <entry key="..\:/MESTIKA/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_transfer_off_us.xml" value="0.21851851851851853" />
+        <entry key="..\:/MESTIKA/mestika_visiondg - DEV mestika build/app/src/main/res/layout/fragment_transfer_on_us.xml" value="0.21851851851851853" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="com.github.pozo.KotlinBuilder" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="@dimen/margin_small"
+    android:elevation="@dimen/margin_common"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_small"
+        android:background="@color/transparent">
+
+        <TextView
+            android:id="@+id/lbl_title"
+            style="@style/header_teks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_common"
+            android:text="Title"
+            android:textSize="@dimen/font_desc"
+            android:textAlignment="textStart"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/no_npwp_et"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_common"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:maxLength="15"
+            android:background="@drawable/btn_input_grey"
+            android:textSize="@dimen/font_desc"/>
+
+        <Button
+            android:id="@+id/btn_okay"
+            android:enabled="false"
+            style="@style/TombolNonActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="@dimen/font_desc_medium"
+            android:text="PhotosFragment_btn_save"
+            android:layout_margin="@dimen/margin_common" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

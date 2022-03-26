@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.khasanah.features.fragment.DataAnakFragment"
+    android:background="@color/colorPrimaryLight">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_data_anak"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/list_title_rv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/list_title_rv"
+                app:shimmer_base_color="@color/grey"
+                app:shimmer_colored="true"
+                app:shimmer_highlight_color="@color/grey_transparent_80">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="20dp">
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/TombolNonActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginBottom="@dimen/margin_common"
+                        android:enabled="false"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon_header"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="@dimen/margin_layout"
+                android:layout_marginTop="@dimen/activity_title_margin"
+                android:src="@drawable/books"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/activity_title_margin"
+                android:layout_marginEnd="@dimen/margin_layout"
+                android:text="Data Anak"
+                android:textSize="@dimen/font_title4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/icon_header"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_title_rv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/btn_tambah_data"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/icon_header"
+                tools:listitem="@layout/khasanah_item_row_title" />
+
+            <Button
+                android:id="@+id/btn_tambah_data"
+                style="@style/TombolActiveMat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/activity_vertical_margin"
+                android:layout_marginVertical="@dimen/activity_vertical_margin"
+                android:text="Tambah"
+                android:textSize="@dimen/font_desc"
+                app:layout_constraintBottom_toTopOf="@+id/btn_back" />
+
+            <Button
+                android:id="@+id/btn_back"
+                style="@style/TombolActiveMat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:text="Kembali"
+                android:textSize="@dimen/font_desc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

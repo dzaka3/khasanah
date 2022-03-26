@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.khasanah.features.fragment.LoginFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.khasanah.features.fragment.RegisterFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.khasanah.features.fragment.MenuFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuDataAnak"
+        android:name="com.khasanah.features.fragment.DataAnakFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuEditDataAnak"
+        android:name="com.khasanah.features.fragment.EditChildFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuAddDataAnak"
+        android:name="com.khasanah.features.fragment.AddChildDataFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuDataAkun"
+        android:name="com.khasanah.features.fragment.DataAkunFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuKonsep"
+        android:name="com.khasanah.features.fragment.KonsepFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuKonsepDetail"
+        android:name="com.khasanah.features.fragment.KonsepDetailFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuPompaAsi"
+        android:name="com.khasanah.features.fragment.PompaAsiFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuStatistik"
+        android:name="com.khasanah.features.fragment.StatistikFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuFaq"
+        android:name="com.khasanah.features.fragment.FaQFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuFaqDetail"
+        android:name="com.khasanah.features.fragment.FaqDetailFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuFaqWebView"
+        android:name="com.khasanah.features.fragment.FaqWebViewFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuBeratBayi"
+        android:name="com.khasanah.features.fragment.BeratBayiFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuHypno"
+        android:name="com.khasanah.features.fragment.HypnoFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/menuHypnoWebView"
+        android:name="com.khasanah.features.fragment.HypnoWebViewFragment"
+        android:label="" />
+</navigation>

@@ -1,0 +1,308 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="colorControlNormal">@color/black_gray</item>
+        <item name="drawerArrowStyle">@style/DrawerCommon</item>
+    </style>
+
+    <style name="DashboardTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ars_blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="colorControlNormal">@color/black_gray</item>
+        <item name="drawerArrowStyle">@style/DrawerDashboard</item>
+    </style>
+
+    <!-- This configures the styles for the title within the Toolbar  -->
+
+    <style name="TollBar.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="android:textSize">18sp</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:padding">@dimen/margin_very_small</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    
+    <style name="BottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="footer_teks" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <!--        <item name="android:textStyle">bold</item>-->
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="background_white" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/bg_round_fill_white</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="background_white_gradient" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/bg_round_grad_white</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="background_white_blue_gradient" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/bg_round_grad_white_blue</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="btn_rectangel" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/btn_home_rectangel</item>
+    </style>
+
+    <style name="btn_green" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/rounded_blue</item>
+        <item name="textColor">@color/white</item>
+        <item name="textSize">16</item>
+    </style>
+
+    <style name="header_teks" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_title5</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="title_teks" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/font_title2</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="number_page_teks" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/font_desc_small</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="title_value_teks" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/font_desc_small</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="dash_header_teks" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/font_title1</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="teks_small_desc" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black_gray</item>
+        <item name="android:textSize">@dimen/font_very_small</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+
+    <style name="teks_small" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/ars_blue</item>
+        <item name="android:textSize">@dimen/font_very_small</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="title_teks1" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:textSize">@dimen/font_title1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="header_teks_white" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_title1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="desc_teks_white" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_desc_small</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="check_radio_style" parent="@android:style/TextAppearance">
+        <item name="android:layout_marginTop">@dimen/margin_common</item>
+        <item name="android:layout_marginStart">@dimen/margin_common</item>
+        <item name="android:layout_marginEnd">@dimen/margin_common</item>
+        <item name="android:textSize">@dimen/font_desc</item>
+    </style>
+
+    // DARI VISION-DG
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="HintText" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CounterText" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/my_pink</item>
+    </style>
+
+    <style name="CounterOverFlow" parent="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/my_orange</item>
+    </style>
+
+    <style name="MySpinnerLook"
+        parent="@style/Widget.AppCompat.Spinner.Underlined">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Tombol" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_blue</item>
+        <item name="textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Tombol1" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_dark_blue</item>
+    </style>
+
+    <style name="TombolBiru" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/ars_rounded_blue</item>
+        <item name="textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="TombolActive" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/btn_active</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolActiveWhite" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/btn_active_white</item>
+        <item name="android:textColor">@color/ars_blue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolActiveMatTheme">
+        <item name="colorPrimary">@color/ars_blue</item>
+    </style>
+
+    <style name="TombolActiveMat" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/TombolActiveMatTheme</item>
+        <item name="android:background">@drawable/btn_active</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/margin_very_small</item>
+        <item name="android:textSize">@dimen/font_desc_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolActiveWhiteMatTheme">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="TombolActiveWhiteMat" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/TombolActiveWhiteMatTheme</item>
+        <item name="android:background">@drawable/btn_active_white</item>
+        <item name="android:textColor">@color/ars_blue</item>
+        <item name="android:padding">@dimen/margin_very_small</item>
+        <item name="android:textSize">@dimen/font_desc_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolNonActive" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/btn_noactive</item>
+        <item name="textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolTransparents" parent="@android:style/TextAppearance">
+        <item name="android:background">@drawable/btn_transparent</item>
+        <item name="textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolWhite" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/btn_white</item>
+        <item name="textColor">@color/colorPrimaryBlue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="TombolGrey" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/btn_grey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TombolTransparent" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ProgressBar" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="android:progressBackgroundTint">@color/my_orange</item>
+        <item name="android:progressTint">#b71c1c</item>
+    </style>
+
+    <style name="DrawerCommon" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/ars_dark_white</item>
+    </style>
+
+    <style name="DrawerDashboard" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/ars_grey</item>
+    </style>
+
+</resources>

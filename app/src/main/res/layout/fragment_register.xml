@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.khasanah.features.fragment.RegisterFragment"
+    android:background="@color/colorPrimaryLight"
+    android:padding="24dp">
+
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_rounded"
+        android:elevation="@dimen/margin_very_small"
+        android:textColor="@color/black"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/font_desc" />
+
+    <EditText
+        android:id="@+id/phone_number_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_rounded"
+        android:elevation="@dimen/margin_very_small"
+        android:hint="Nomor Seluler"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_desc" />
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_rounded"
+        android:elevation="@dimen/margin_very_small"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_desc"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_rounded"
+        android:elevation="@dimen/margin_very_small"
+        android:hint="password"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_desc"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/confirm_pass_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_rounded"
+        android:elevation="@dimen/margin_very_small"
+        android:hint="Confirm Password"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_desc"
+        android:inputType="textPassword"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890[]!@#$%&amp;&lt;&gt;*()_+=|?{}~-" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading_animation"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="loading.json"
+        app:lottie_loop="true" />
+
+    <Button
+        android:enabled="false"
+        android:id="@+id/button_ok"
+        style="@style/TombolNonActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="@dimen/activity_vertical_margin"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/font_desc"/>
+
+</LinearLayout>
