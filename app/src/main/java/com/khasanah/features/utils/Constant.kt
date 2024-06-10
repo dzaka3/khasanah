@@ -1,7 +1,7 @@
 package com.khasanah.features.utils
 
 object Constant {
-    const val BASE_URL = "https://khasanah.urangprojects.xyz/api/"
+    const val BASE_URL = "https://khasana.sidedeveloper.my.id/api/"
     const val KEY_ID_TITTLE = "KEY_ID_TITTLE"
 
     const val KEY_TOKEN = "KEY_TOKEN"
